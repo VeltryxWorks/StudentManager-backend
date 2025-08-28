@@ -18,7 +18,7 @@ class ExamDTO {
     private Long id;
     private String title;
     private String description;
-    private String examDate; // puoi cambiare con Date se vuoi
+    private String examDate;
     private Integer vote;
     private String status;
     private String studentName;
