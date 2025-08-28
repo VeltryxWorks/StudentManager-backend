@@ -12,4 +12,5 @@ import org.springframework.data.jpa.repository.JpaRepository;
  * count() → conta i record
  */
 public interface StudentRepository extends JpaRepository<Student, Long> {
+    Student findByEmail(String email);
 }

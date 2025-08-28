@@ -39,4 +39,7 @@ public class ToDo implements Serializable {
         this.status = status;
     }
 
+    public Object getTodo_id() {
+        return todoId;
+    }
 }
