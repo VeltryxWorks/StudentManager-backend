@@ -1,6 +1,6 @@
 package com.veltryxworks.studentmanager.repository;
 
-import com.veltryxworks.studentmanager.model.ToDo;
+import com.veltryxworks.studentmanager.model.Exam;
 import org.springframework.data.jpa.repository.JpaRepository;
 
 /**
@@ -11,5 +11,5 @@ import org.springframework.data.jpa.repository.JpaRepository;
  * deleteById(Long id) → cancella per ID
  * count() → conta i record
  */
-public interface ToDoRepository  extends JpaRepository<ToDo, Long>{
+public interface ExamRepository extends JpaRepository<Exam, Long> {
 }
