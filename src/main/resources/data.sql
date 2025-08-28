@@ -12,10 +12,10 @@ VALUES ('Emanuele', 'Rossi', 'emanuele.rossi@example.com'),
 -- Popola la tabella exam
 -- ATTENZIONE: student_id deve corrispondere agli ID dei record appena creati
 INSERT INTO exam (title, description, exam_date, vote, status, student_id)
-VALUES ('Matematica', 'Analisi 1', '2025-09-15', 28, 'PENDING', 1),
-       ('Informatica', 'Programmazione Java', '2025-09-20', 30, 'COMPLETED', 1),
-       ('Fisica', 'Meccanica', '2025-09-18', 25, 'PENDING', 2),
-       ('Chimica', 'Chimica Organica', '2025-09-22', 27, 'COMPLETED', 3);
+VALUES ('Matematica', 'Analisi 1', '2025-09-15', 28, 'PRENOTATO', 1),
+       ('Informatica', 'Programmazione Java', '2025-09-20', 30, 'SUPERATO', 1),
+       ('Fisica', 'Meccanica', '2025-09-18', 25, 'BOCCIATO', 2),
+       ('Chimica', 'Chimica Organica', '2025-09-22', 27, 'SUPERATO', 3);
 
 -- Popola la tabella todo
 -- ATTENZIONE: student_id deve corrispondere agli ID dei record appena creati
