@@ -1,7 +1,7 @@
 # 🎓 Student Manager App
 
 > 📚 **Student Manager** è un’applicazione backend + database progettata per uso personale.  
-> ⚠️ **Nota:** Questo progetto è **solo a scopo didattico e personale**, non è pensato per produzione.
+> ⚠️ **Nota:** Questo progetto è **solo a scopo didattico e personale**, non è pensato per essere pubblicato.
 
 ---
 
